@@ -1,12 +1,13 @@
 .container {
-  margin: 20px auto;
   max-width: 600px;
+  margin: 20px auto;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .card {
   max-width: 600px;
+  margin: 20px auto;
   padding: 10px;
 }
 
@@ -115,4 +116,12 @@ ul li span a {
   height: auto;
   line-height: 15px;
   padding-top: 15px;
+}
+
+.outro {
+  text-align: center;
+}
+
+.outro a {
+  color: #086972;
 }
