@@ -86,5 +86,18 @@ li {
 }
 
 .temp {
-  font-size: 1rem;
+  font-size: 1.2rem;
+}
+
+.weather-temp .active {
+  color: black;
+  cursor: default;
+}
+
+.weather-temp .active:hover {
+  text-decoration: none;
+}
+
+ul li span a {
+  color: #086972;
 }

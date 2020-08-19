@@ -30,12 +30,18 @@
           </form>
           <button class="current" id="currentLocation">CURRENT LOCATION</button>
           <div class="row">
-            <div class="col-6">
+            <div class="col-6 weather-temp">
               <h1 class="city-show" id="city"></h1>
               <p>Last updated: <span class="date-time" id="date"></span></p>
               <hr />
               <ul>
-                <li class="temp"><strong id="temp"></strong> °C|°F</li>
+                <li class="temp">
+                  <strong id="temp"></strong>
+                  <span class="units">
+                    <a href="#" id="celsius-link" class="active"> °C |</a>
+                    <a href="#" id="fahrenheit-link"> °F</a></span
+                  >
+                </li>
                 <li class="description" id="description"></li>
                 <li>Humidity: <span id="humidity"></span>%</li>
                 <li>Wind: <span id="wind"></span> km/h</li>
