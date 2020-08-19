@@ -11,6 +11,7 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -30,22 +31,14 @@
           <button class="current" id="currentLocation">CURRENT LOCATION</button>
           <div class="row">
             <div class="col-6">
-              <h1 class="city-show">Munich</h1>
+              <h1 class="city-show" id="city"></h1>
               <p class="date-time">Wednesday, 13:04</p>
               <hr />
               <ul>
-                <li class="temp">
-                  <strong>28 °C|°F</strong>
-                </li>
-                <li>
-                  Clear
-                </li>
-                <li>
-                  Humidity: 10%
-                </li>
-                <li>
-                  Wind: 1km/h
-                </li>
+                <li class="temp"><strong id="temp"></strong> °C|°F</li>
+                <li class="description" id="description"></li>
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Wind: <span id="wind"></span> km/h</li>
               </ul>
             </div>
             <div class="col-6">

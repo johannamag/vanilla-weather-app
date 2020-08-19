@@ -81,6 +81,10 @@ li {
   margin-bottom: 0rem;
 }
 
+.description {
+  text-transform: capitalize;
+}
+
 .temp {
   font-size: 1rem;
 }
