@@ -1,0 +1,86 @@
+.container {
+  margin: 20px auto;
+  max-width: 600px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.card {
+  max-width: 600px;
+  padding: 10px;
+}
+
+.city {
+  background-color: white;
+  border: 1px solid #596e79;
+  border-radius: 3px;
+  width: 80%;
+  font-size: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+}
+
+.find {
+  background-color: #ea907a;
+  color: black;
+  border: 1px solid #086972;
+  border-radius: 3px;
+  float: right;
+  width: 19%;
+  font-size: 12px;
+  padding: 5px 15px 5px 15px;
+  transition: all 200ms ease-in-out;
+}
+
+.find:hover {
+  background-color: #086972;
+  border: 1px solid #086972;
+  color: white;
+}
+
+.current {
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+  background-color: #086972;
+  color: white;
+  padding: 5px 15px 5px 15px;
+  font-size: 12px;
+  border-radius: 3px;
+  border: 1px solid #ea907a;
+  width: 100%;
+  transition: all 200ms ease-in-out;
+}
+
+.current:hover {
+  border: 1px solid #086972;
+  background-color: #ea907a;
+  color: black;
+}
+
+h1 {
+  padding-top: 10px;
+}
+
+img {
+  padding-top: 20px;
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+  font-size: 0.8rem;
+  margin-bottom: 0rem;
+}
+
+li {
+  margin-bottom: 0rem;
+}
+
+.temp {
+  font-size: 1rem;
+}
