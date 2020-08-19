@@ -39,26 +39,6 @@
   color: white;
 }
 
-.current {
-  display: block;
-  margin: 0 auto;
-  margin-top: 15px;
-  background-color: #086972;
-  color: white;
-  padding: 5px 15px 5px 15px;
-  font-size: 12px;
-  border-radius: 3px;
-  border: 1px solid #ea907a;
-  width: 100%;
-  transition: all 200ms ease-in-out;
-}
-
-.current:hover {
-  border: 1px solid #086972;
-  background-color: #ea907a;
-  color: black;
-}
-
 h1 {
   padding-top: 10px;
 }
