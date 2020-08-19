@@ -34,7 +34,17 @@ function showTemperature(response) {
   iconElement.setAttribute("alt", response.data.weather[0].description);
 }
 
-let apiKey = "ab96d1f59a7ee590668ddadbffe2617d";
-let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=Munich&appid=${apiKey}&units=metric`;
+function search(city) {
+  let apiKey = "ab96d1f59a7ee590668ddadbffe2617d";
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+  axios.get(apiUrl).then(showTemperature);
+}
 
-axios.get(apiUrl).then(showTemperature);
+function handleSubmit(event) {
+  event.preventDefault();
+  let citySearchElement = document.querySelector("#city-search");
+  search(citySearchElement.value);
+}
+
+let form = document.querySelector("#search-form");
+form.addEventListener("submit", handleSubmit);
