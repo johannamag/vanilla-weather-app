@@ -13,7 +13,57 @@
     />
   </head>
   <body>
-    <div class="container"></div>
+    <div class="container">
+      <div class="card">
+        <div class="card-body">
+          <form class="search" id="searchform">
+            <input
+              type="text"
+              class="city"
+              id="city-search"
+              placeholder="Type a city..."
+              autocomplete="off"
+              autofocus="on"
+            />
+            <input type="submit" class="find" value="FIND" />
+          </form>
+          <button class="current" id="currentLocation">CURRENT LOCATION</button>
+          <h1 class="city-show">Munich</h1>
+          <p class="date-time">Wednesday, 13:04</p>
+          <img src="media/cloud.png" alt="girl sitting on cloud" />
+          <ul>
+            <li>
+              Clear
+            </li>
+            <li>
+              Humidity: 10%
+            </li>
+            <li>
+              Wind: 1km/h
+            </li>
+          </ul>
+          <hr />
+          <div class="row forecast">
+            <div class="col-3">
+              <h6>Mon<br />☀️</h6>
+              <p>20°<br />28°</p>
+            </div>
+            <div class="col-3">
+              <h6>Mon<br />☀️</h6>
+              <p>20°<br />28°</p>
+            </div>
+            <div class="col-3">
+              <h6>Mon<br />☀️</h6>
+              <p>20°<br />28°</p>
+            </div>
+            <div class="col-3">
+              <h6>Mon<br />☀️</h6>
+              <p>20°<br />28°</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="src/app.js"></script>
   </body>
 </html>
